@@ -19,8 +19,8 @@ module.exports = {
             test:'/.css$/',
             loader:'css-loader'
         }
-    ],babel: {
-        // 告诉babel你要解析的语言
+    ],
+    babel: {
         presets: ['es2015']
-    },
+    }
 }

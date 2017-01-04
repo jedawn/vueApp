@@ -1,0 +1,27 @@
+<template>
+    <div>
+        <header-component/>
+        <div>{{msg}}</div>
+        <footer-component/>
+    </div>
+</template>
+<style>
+    body{
+        background-color:#ff0000;
+    }
+</style>
+<script>
+    import HeaderComponent from './component/header.vue'
+    import FooterComponent from './component/footer.vue'
+    export default{
+        data(){
+            return{
+                msg:'我是另外一个路由页面内容哦'
+            }
+        },
+        components:{
+            'header-component':HeaderComponent,
+            'footer-component':FooterComponent
+        }
+    }
+</script>

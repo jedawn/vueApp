@@ -1,0 +1,33 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.4",
+    "cross-env": "^3.1.4",
+    "css-loader": "^0.26.1",
+    "vue": "^2.1.8",
+    "vue-loader": "^10.0.2",
+    "vue-router": "^2.1.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.4",
+    "css-loader": "^0.26.1",
+    "vue": "^2.1.8",
+    "vue-loader": "^10.0.2",
+    "vue-router": "^2.1.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -6,13 +6,10 @@
     </div>
 </template>
 <style>
-    body{
-        background-color:#ff0000;
-    }
 </style>
 <script>
-    import HeaderComponent from './component/header.vue'
-    import FooterComponent from './component/footer.vue'
+    import HeaderComponent from '../component/header.vue';
+    import FooterComponent from '../component/footer.vue';
     export default{
         data(){
             return{

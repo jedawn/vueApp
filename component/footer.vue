@@ -4,9 +4,6 @@
     </div>
 </template>
 <style>
-    div{
-        color:blue;
-    }
 </style>
 <script>
     export default{

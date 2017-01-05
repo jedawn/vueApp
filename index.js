@@ -1,8 +1,12 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
+import VueResource from "vue-resource"
+
 import Article from "./vue/article.vue"
 import Content from "./vue/content.vue"
+
 Vue.use(VueRouter);
+Vue.use(VueResource);
 //获取路由模板
 const article = Article;
 const content = Content;

@@ -4,6 +4,7 @@
         <div @click="showVatral">
             <div v-for="item in initArr">{{item}}</div>
         </div>
+        {{msg}}
         <footer-component/>
     </div>
 </template>
@@ -12,6 +13,7 @@
 <script>
     import HeaderComponent from '../component/header.vue';
     import FooterComponent from '../component/footer.vue';
+    import Vue from 'vue';
     export default{
         data(){
             return{
@@ -23,8 +25,10 @@
             showVatral : function(){
                 const num1 = parseInt(Math.random()*10);
                 if(num1 < 10 && num1 >=0){
-                    this.initArr[num1] = num1*5;
-                    console.log(this.initArr)
+                    //this.initArr[num1] = num1*5;
+                    var item = this.initArr;
+                    Vue.set(item,num1,Math.random());
+                    this.msg = num1;
                 }
                 setTimeout(this.showVatral,1000)
             }

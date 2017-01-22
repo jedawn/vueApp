@@ -9,7 +9,7 @@
     export default{
         data(){
             return{
-                msg:'bye vue'
+                msg:'footer vue'
             }
         }
     }

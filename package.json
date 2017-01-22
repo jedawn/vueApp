@@ -13,12 +13,16 @@
     "vue-router": "^2.1.1",
     "vue-style-loader": "^1.0.0",
     "vue-template-compiler": "^2.1.8",
+    "vuex": "^2.1.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   },
   "main": "index.js",
   "dependencies": {
     "css-loader": "^0.26.1",
+    "element-ui": "^1.1.5",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.13.1",
     "vue": "^2.1.8",
     "vue-loader": "^10.0.2",
     "vue-router": "^2.1.1",

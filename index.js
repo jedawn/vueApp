@@ -1,12 +1,16 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
 import VueResource from "vue-resource"
+/*引入ElementUI*/
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-default/index.css'
 
 import Article from "./vue/article.vue"
 import Content from "./vue/content.vue"
 
 Vue.use(VueRouter);
 Vue.use(VueResource);
+Vue.use(ElementUI);
 //获取路由模板
 const article = Article;
 const content = Content;
@@ -14,7 +18,7 @@ const content = Content;
 //定义路由
 
 const routes = [
-    {path:'/',component:article},
+    {path:'/',component:content},
     {path:'/article',component:article},
     {path:'/content',component:content}
 ];

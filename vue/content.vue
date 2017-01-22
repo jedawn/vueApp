@@ -1,24 +1,30 @@
 <template>
     <div>
-        <header-component/>
-        <div>{{msg}}</div>
-        <footer-component/>
+        <el-radio class="radio" v-model="radio" label="1">备选项</el-radio>
+        <el-radio class="radio" v-model="radio" label="2">备选项</el-radio>
+        <img :src="ss">
+        <el-switch
+                v-model="value1"
+                on-text="0000ok"
+                off-text="">
+        </el-switch>
+        <el-switch
+                v-model="value2"
+                on-color="#13ce66"
+                off-color="#ff4949">
+        </el-switch>
     </div>
 </template>
-<style>
-</style>
 <script>
-    import HeaderComponent from '../component/header.vue'
-    import FooterComponent from '../component/footer.vue'
+    import ss from "../img/ds.png"
     export default{
         data(){
             return{
-                msg:'我是另外一个路由页面内容哦'
+                radio: '2',
+                ss:ss,
+                value1: true,
+                value2: true
             }
-        },
-        components:{
-            'header-component':HeaderComponent,
-            'footer-component':FooterComponent
         }
     }
 </script>

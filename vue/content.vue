@@ -1,8 +1,14 @@
 <template>
     <div>
+        <div class="pk">
+            哈哈哈
+            <div class="pkin">
+                吼吼吼
+            </div>
+        </div>
         <el-radio class="radio" v-model="radio" label="1">备选项</el-radio>
         <el-radio class="radio" v-model="radio" label="2">备选项</el-radio>
-        <img :src="ss">
+        <img src="../img/ds.png">
         <el-switch
                 v-model="value1"
                 on-text="0000ok"
@@ -28,3 +34,11 @@
         }
     }
 </script>
+<style lang="sass">
+    .pk{
+    color:red;
+        .pkin{
+            color:blue;
+         }
+    }
+</style>

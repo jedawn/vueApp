@@ -2,6 +2,7 @@ module.exports = {
     entry:'./index.js',
     output:{
         path:'./dist',
+        publicPath:'./dist/',
         filename:'bundle.js'
     },
     module:{
@@ -14,6 +15,11 @@ module.exports = {
             {
                 test: /\.vue$/,
                 loader: 'vue',
+                options: {
+                    loaders: {
+                        'scss': 'style-loader!css-loader!sass-loader'
+                    }
+                }
             },
             {
                 test:/.css$/,
@@ -27,9 +33,13 @@ module.exports = {
                 test: /\.(png|jpe?g|gif|svg)(\?\S*)?$/,
                 loader: 'file-loader',
                 query: {
-                    name: '[name].[ext]?[hash]'
+                    name: 'images/[name].[ext]?[hash]'
                 }
-            }
+            },
+            {
+                test:/.s(c|a)ss$/,
+                loader:'style-loader!sass-loader!css-loader'
+            },
         ]
     },
     resolve: {

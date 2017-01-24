@@ -53,11 +53,6 @@
         <div class="tour-blog container">
             <div class="chunk-title">途游记</div>
             <el-row :gutter="20">
-                <el-col :lg="13" :md="12">
-                    <div class="index-data">
-                        <div class="index-data-img" :style="{backgroundImage:'url(' + blogData.indexData + ')'}"></div>
-                    </div>
-                </el-col>
                 <el-col :lg="11" :md="12">
                     <ul>
                         <a href="#">
@@ -72,6 +67,11 @@
                             </li>
                         </a>
                     </ul>
+                </el-col>
+                <el-col :lg="13" :md="12">
+                    <div class="index-data">
+                        <div class="index-data-img" :style="{backgroundImage:'url(' + blogData.indexData + ')'}"></div>
+                    </div>
                 </el-col>
             </el-row>
         </div>

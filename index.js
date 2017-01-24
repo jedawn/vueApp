@@ -4,13 +4,17 @@ import VueResource from "vue-resource"
 /*引入ElementUI*/
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
+import './common.css'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 
+import index from "./vue/index.vue"
 import Article from "./vue/article.vue"
 import Content from "./vue/content.vue"
 
 Vue.use(VueRouter);
 Vue.use(VueResource);
 Vue.use(ElementUI);
+Vue.use(VueAwesomeSwiper);
 //获取路由模板
 const article = Article;
 const content = Content;
@@ -18,7 +22,7 @@ const content = Content;
 //定义路由
 
 const routes = [
-    {path:'/',component:content},
+    {path:'/',component:index},
     {path:'/article',component:article},
     {path:'/content',component:content}
 ];

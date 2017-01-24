@@ -1,6 +1,8 @@
 <template>
     <div>
-        <header-component/>
+        <header-component>
+            <footer-component/>
+        </header-component>
         <div @click="showVatral">
             <div v-for="item in initArr">{{item}}</div>
         </div>

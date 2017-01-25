@@ -88,9 +88,9 @@
                 blogData : {
                     indexData : img3,
                     blogList : [
-                        {"blog_src" : img3 , "blog_title" : "“辞职去旅行？”别闹了~最全2015年假期旅行表，旅行约起来~" , "blog_txt" : "推送2015年的假期表~小V不考虑你老板的感受，只原意为出行的你提供“天时”“地利”至于“人和”"},
-                        {"blog_src" : img3 , "blog_title" : "“辞职去旅行？”别闹了~最全2015年假期旅行表，旅行约起来~" , "blog_txt" : "推送2015年的假期表~小V不考虑你老板的感受，只原意为出行的你提供“天时”“地利”至于“人和”"},
-                        {"blog_src" : img3 , "blog_title" : "“辞职去旅行？”别闹了~最全2015年假期旅行表，旅行约起来~" , "blog_txt" : "推送2015年的假期表~小V不考虑你老板的感受，只原意为出行的你提供“天时”“地利”至于“人和”"}
+                        {"blog_src" : img3 , "blog_title" : "“辞职去旅行1？”别闹了~最全2015年假期旅行表，旅行约起来~" , "blog_txt" : "推送2015年的假期表~小V不考虑你老板的感受，只原意为出行的你提供“天时”“地利”至于“人和”"},
+                        {"blog_src" : img3 , "blog_title" : "“辞职去旅行2？”别闹了~最全2015年假期旅行表，旅行约起来~" , "blog_txt" : "推送2015年的假期表~小V不考虑你老板的感受，只原意为出行的你提供“天时”“地利”至于“人和”"},
+                        {"blog_src" : img3 , "blog_title" : "“辞职去旅行3？”别闹了~最全2015年假期旅行表，旅行约起来~" , "blog_txt" : "推送2015年的假期表~小V不考虑你老板的感受，只原意为出行的你提供“天时”“地利”至于“人和”"}
                     ]
                 },
                 img3 : img3,
@@ -101,26 +101,29 @@
                     {"hot_src" : img2 , "hot_title" : "复兴路上的时光碎片2" , "hot_txt" : "经历过开埠、越界筑路、乱战后，上海迎来了短暂的平和；人口剧增、经济繁荣、文艺自由；帝国主义者、外国商人流浪人、革命家、国内难民等在这片方圆几十平方公里的地方辗转腾挪各显神通，好一幅海派丛林。"}
                 ],
                 whyData :[
-                    {"why_src" : img4 , "why_title" : "年轻人的小团体出行" , "why_txt" : "VIVA旅行家拒绝购物回扣，拒绝地接社，拒绝“卖游客”等行业陋习。我们更建议你去街巷寻找地道特产，形成从咨询、报名、出团、回访、会员等一系列的完整服务体系……"},
-                    {"why_src" : img4 , "why_title" : "年轻人的小团体出行" , "why_txt" : "VIVA旅行家拒绝购物回扣，拒绝地接社，拒绝“卖游客”等行业陋习。我们更建议你去街巷寻找地道特产，形成从咨询、报名、出团、回访、会员等一系列的完整服务体系……"},
-                    {"why_src" : img4 , "why_title" : "年轻人的小团体出行" , "why_txt" : "VIVA旅行家拒绝购物回扣，拒绝地接社，拒绝“卖游客”等行业陋习。我们更建议你去街巷寻找地道特产，形成从咨询、报名、出团、回访、会员等一系列的完整服务体系……"},
-                    {"why_src" : img4 , "why_title" : "年轻人的小团体出行" , "why_txt" : "VIVA旅行家拒绝购物回扣，拒绝地接社，拒绝“卖游客”等行业陋习。我们更建议你去街巷寻找地道特产，形成从咨询、报名、出团、回访、会员等一系列的完整服务体系……"}
+                    {"why_src" : img4 , "why_title" : "小团体出行1" , "why_txt" : "VIVA旅行家拒绝购物回扣，拒绝地接社，拒绝“卖游客”等行业陋习。我们更建议你去街巷寻找地道特产，形成从咨询、报名、出团、回访、会员等一系列的完整服务体系……"},
+                    {"why_src" : img4 , "why_title" : "年团体出行2" , "why_txt" : "VIVA旅行家拒绝购物回扣，拒绝地接社，拒绝“卖游客”等行业陋习。我们更建议你去街巷寻找地道特产，形成从咨询、报名、出团、回访、会员等一系列的完整服务体系……"},
+                    {"why_src" : img4 , "why_title" : "团体出行3" , "why_txt" : "VIVA旅行家拒绝购物回扣，拒绝地接社，拒绝“卖游客”等行业陋习。我们更建议你去街巷寻找地道特产，形成从咨询、报名、出团、回访、会员等一系列的完整服务体系……"},
+                    {"why_src" : img4 , "why_title" : "团体出行4" , "why_txt" : "VIVA旅行家拒绝购物回扣，拒绝地接社，拒绝“卖游客”等行业陋习。我们更建议你去街巷寻找地道特产，形成从咨询、报名、出团、回访、会员等一系列的完整服务体系……"}
                 ],
                 swiperOption:{
                     pagination : '.swiper-pagination',
-                autoplay: 3000,
+                    simulateTouch : false,
+                    autoplay: 3000,
                     autoHeight: true,
                     paginationClickable :true
                 },
                 swiperOptionHot:{
                     pagination : '.swiper-pagination',
                     autoHeight: true,
+                    simulateTouch : false,
                     paginationClickable :true,
                     effect : 'fade'
                 },
                 swiperOptionWhy:{
                     slidesPerView : 3,
                     slidesPerGroup : 3,
+                    simulateTouch : false,
                     prevButton:'.swiper-button-prev',
                     nextButton:'.swiper-button-next',
                 }
